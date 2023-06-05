@@ -1,0 +1,38 @@
+[
+{
+    "model": "app_message.message",
+    "pk": 3,
+    "fields": {
+        "subject": "Приглашение на гонку героев",
+        "body": "Приглашаем тебя в следующую субботу на гонку героев!",
+        "created_by": 4
+    }
+},
+{
+    "model": "app_message.message",
+    "pk": 4,
+    "fields": {
+        "subject": "Скидка на ski-сервис",
+        "body": "Скидка 30% на проведение ТО вашей снаряги!\r\nЖдем вас!",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_message.message",
+    "pk": 5,
+    "fields": {
+        "subject": "Чехол в подарок",
+        "body": "Купи горные лыжи или сноуборд и получи чехол в подарок",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_message.message",
+    "pk": 6,
+    "fields": {
+        "subject": "Скидки на ТО велосипедов",
+        "body": "Весь июнь скидки на ТО велосипедов 20%!",
+        "created_by": 3
+    }
+}
+]

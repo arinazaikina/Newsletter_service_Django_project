@@ -1,0 +1,1801 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-06-03T18:45:59.780Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "4",
+        "object_repr": "45 21 * * * (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-06-03T18:45:59.789Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "3",
+        "object_repr": "0 4 * * * (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-06-03T18:45:59.791Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "1",
+        "object_repr": "11 11 * * 5 (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-06-03T18:45:59.792Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "2",
+        "object_repr": "12 11 * * 5 (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-06-03T18:47:17.027Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Рассылка #2",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-06-03T18:47:17.037Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Рассылка #1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-06-03T19:56:23.824Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "6",
+        "object_repr": "49 21 * * * (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-06-03T19:56:23.835Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "7",
+        "object_repr": "52 21 * * * (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-06-03T19:56:23.837Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "5",
+        "object_repr": "0 4 * * * (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-06-03T19:56:23.840Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "8",
+        "object_repr": "12 0 3 * * (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-06-03T19:56:34.732Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "Рассылка #4",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-06-03T19:56:38.615Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "Рассылка #3",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-06-03T20:01:28.953Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Админ Админов",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-06-03T21:05:28.900Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "10",
+        "object_repr": "13 13 * * * (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-06-03T21:05:28.910Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "9",
+        "object_repr": "11 11 * * 5 (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-06-03T21:05:38.386Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Рассылка #6",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-06-03T21:05:38.389Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Рассылка #5",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-06-03T21:09:13.704Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "3",
+        "object_repr": "Лог #3",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2023-06-03T21:09:13.711Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "2",
+        "object_repr": "Лог #2",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-06-03T21:09:13.713Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "Лог #1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2023-06-03T21:25:47.843Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "8",
+        "object_repr": "Рассылка #8",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043b\\u0438\\u0435\\u043d\\u0442\\u044b\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2023-06-03T21:26:09.227Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "8",
+        "object_repr": "Рассылка #8",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0440\\u0435\\u043c\\u044f \\u0440\\u0430\\u0441\\u0441\\u044b\\u043b\\u043a\\u0438\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2023-06-03T21:26:39.273Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "11",
+        "object_repr": "7 0 * * * (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2023-06-03T21:26:39.282Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "13",
+        "object_repr": "8 0 * * * (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2023-06-03T21:26:39.284Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "14",
+        "object_repr": "9 0 * * * (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2023-06-03T21:26:39.286Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "12",
+        "object_repr": "0 4 * * * (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2023-06-03T21:35:10.329Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Отчёт об исследовании",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2023-06-03T21:35:30.973Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "Мария Иванова",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2023-06-04T08:03:27.738Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "8",
+        "object_repr": "Рассылка #8",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041a\\u043b\\u0438\\u0435\\u043d\\u0442\\u044b\", \"\\u0421\\u043e\\u043e\\u0431\\u0449\\u0435\\u043d\\u0438\\u044f\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2023-06-04T13:54:32.897Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "4",
+        "object_repr": "Арина Старцева",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043e\\u0437\\u0434\\u0430\\u043d\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2023-06-04T13:54:53.397Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "3",
+        "object_repr": "Приглашение на гонку героев",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043e\\u0437\\u0434\\u0430\\u043d\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2023-06-04T13:55:47.706Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "10",
+        "object_repr": "Рассылка #10",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2023-06-04T13:55:47.710Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "9",
+        "object_repr": "Рассылка #9",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2023-06-04T13:55:47.712Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "8",
+        "object_repr": "Рассылка #8",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2023-06-04T13:55:47.714Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "7",
+        "object_repr": "Рассылка #7",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2023-06-04T13:55:53.765Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "15",
+        "object_repr": "32 0 * * * (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2023-06-04T13:55:53.769Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "16",
+        "object_repr": "36 0 * * * (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2023-06-04T13:55:53.771Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "17",
+        "object_repr": "10 11 * * * (m/h/dM/MY/d) Europe/Moscow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2023-06-04T16:01:11.989Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "5",
+        "object_repr": "Ольга Соколова",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 4,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 4,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 4,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 4,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 5,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 5,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 5,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 5,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add crontab",
+        "content_type": 6,
+        "codename": "add_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change crontab",
+        "content_type": 6,
+        "codename": "change_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete crontab",
+        "content_type": 6,
+        "codename": "delete_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view crontab",
+        "content_type": 6,
+        "codename": "view_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add interval",
+        "content_type": 7,
+        "codename": "add_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change interval",
+        "content_type": 7,
+        "codename": "change_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete interval",
+        "content_type": 7,
+        "codename": "delete_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view interval",
+        "content_type": 7,
+        "codename": "view_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add periodic task",
+        "content_type": 8,
+        "codename": "add_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change periodic task",
+        "content_type": 8,
+        "codename": "change_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete periodic task",
+        "content_type": 8,
+        "codename": "delete_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view periodic task",
+        "content_type": 8,
+        "codename": "view_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add periodic tasks",
+        "content_type": 9,
+        "codename": "add_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change periodic tasks",
+        "content_type": 9,
+        "codename": "change_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete periodic tasks",
+        "content_type": 9,
+        "codename": "delete_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view periodic tasks",
+        "content_type": 9,
+        "codename": "view_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add solar event",
+        "content_type": 10,
+        "codename": "add_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change solar event",
+        "content_type": 10,
+        "codename": "change_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete solar event",
+        "content_type": 10,
+        "codename": "delete_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view solar event",
+        "content_type": 10,
+        "codename": "view_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add clocked",
+        "content_type": 11,
+        "codename": "add_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change clocked",
+        "content_type": 11,
+        "codename": "change_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete clocked",
+        "content_type": 11,
+        "codename": "delete_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view clocked",
+        "content_type": 11,
+        "codename": "view_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add Пользователь",
+        "content_type": 12,
+        "codename": "add_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change Пользователь",
+        "content_type": 12,
+        "codename": "change_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete Пользователь",
+        "content_type": 12,
+        "codename": "delete_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view Пользователь",
+        "content_type": 12,
+        "codename": "view_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add Пост",
+        "content_type": 13,
+        "codename": "add_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change Пост",
+        "content_type": 13,
+        "codename": "change_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete Пост",
+        "content_type": 13,
+        "codename": "delete_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view Пост",
+        "content_type": 13,
+        "codename": "view_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add Клиент",
+        "content_type": 14,
+        "codename": "add_client"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change Клиент",
+        "content_type": 14,
+        "codename": "change_client"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete Клиент",
+        "content_type": 14,
+        "codename": "delete_client"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view Клиент",
+        "content_type": 14,
+        "codename": "view_client"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add Сообщение",
+        "content_type": 15,
+        "codename": "add_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change Сообщение",
+        "content_type": 15,
+        "codename": "change_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete Сообщение",
+        "content_type": 15,
+        "codename": "delete_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view Сообщение",
+        "content_type": 15,
+        "codename": "view_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add Рассылка",
+        "content_type": 16,
+        "codename": "add_newsletter"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change Рассылка",
+        "content_type": 16,
+        "codename": "change_newsletter"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete Рассылка",
+        "content_type": 16,
+        "codename": "delete_newsletter"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view Рассылка",
+        "content_type": 16,
+        "codename": "view_newsletter"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add Лог отправки письма",
+        "content_type": 17,
+        "codename": "add_newsletterlog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change Лог отправки письма",
+        "content_type": 17,
+        "codename": "change_newsletterlog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete Лог отправки письма",
+        "content_type": 17,
+        "codename": "delete_newsletterlog"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view Лог отправки письма",
+        "content_type": 17,
+        "codename": "view_newsletterlog"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "crontabschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "intervalschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "periodictask"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "periodictasks"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "solarschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "clockedschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "app_user",
+        "model": "customuser"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "app_blog",
+        "model": "post"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "app_client",
+        "model": "client"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "app_message",
+        "model": "message"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "app_newsletter",
+        "model": "newsletter"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "app_newsletter",
+        "model": "newsletterlog"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "1d3z8rbbdzdlytqzix7ukobqyj2xajcn",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pDAFCgu3XsGMjAzUjU0Ke3KeHdt0oVu_3vvv1TCba1p67ykidRZgTr9bhnLg9sO6I7tNusyt3WZst4VfdCurzPx83K4fwcVe_3WyM6PQ0BGMYYhBiticwaAKA6DAcMOQnaOiKIlX_wgYuJog4_orVXvD-2jN7c:1q5t6q:m7eKAUxjiitPfzh1duG-ejNagF1VUQhU1h764SCrx8s",
+        "expire_date": "2023-06-18T19:09:48.014Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8b7ek5r9yfy5hwdrhot5iuagvc04ozts",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln2xl9Kes5grXc3JIBiKZ8KcXeIlALaNzPvpQpu61C2ReYysjorUKffrSI9ZNoB33G6NU1tWuex6l3RB130tbE8L4f7dzDgMnzrnAKk2lFXsUtOjGPvJTgOfQZhyTayQzJegADA9zEaisaSdRkRk1HvD9qbN50:1q5qQh:raes1wGWuYxc82r53Yrn_f-tr6ZOL2DiQKm9kZ4c2YU",
+        "expire_date": "2023-06-18T16:18:07.838Z"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 18,
+    "fields": {
+        "minute": "0",
+        "hour": "4",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 19,
+    "fields": {
+        "minute": "58",
+        "hour": "16",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 20,
+    "fields": {
+        "minute": "1",
+        "hour": "17",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.periodictasks",
+    "pk": 1,
+    "fields": {
+        "last_update": "2023-06-04T14:28:14.951Z"
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 19,
+    "fields": {
+        "name": "celery.backend_cleanup",
+        "task": "celery.backend_cleanup",
+        "interval": null,
+        "crontab": 18,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": 43200,
+        "one_off": false,
+        "start_time": null,
+        "enabled": true,
+        "last_run_at": null,
+        "total_run_count": 0,
+        "date_changed": "2023-06-04T13:56:24.588Z",
+        "description": ""
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 21,
+    "fields": {
+        "name": "Рассылка #12",
+        "task": "app_newsletter.tasks.send_newsletter",
+        "interval": null,
+        "crontab": 20,
+        "solar": null,
+        "clocked": null,
+        "args": "[12]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": null,
+        "one_off": false,
+        "start_time": null,
+        "enabled": true,
+        "last_run_at": "2023-06-04T14:01:00.006Z",
+        "total_run_count": 1,
+        "date_changed": "2023-06-04T14:02:30.380Z",
+        "description": ""
+    }
+},
+{
+    "model": "app_user.customuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$ZaA8UZwIkNCKMptXhGbRUc$vr5Qt4BH6vAQo5JYFT6wzmu5zWy0ZyaT9rX54+iKggM=",
+        "last_login": "2023-06-04T18:55:47.272Z",
+        "is_superuser": true,
+        "first_name": "Админ",
+        "last_name": "Админов",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-06-03T18:32:33Z",
+        "email": "admin@admin.ru",
+        "middle_name": null,
+        "comment": "",
+        "email_verified": false,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "app_user.customuser",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$KZftNbigF3Ymi8Of4XXQAz$tCyBtT04JhPFutLCI4AkzUvxyeo/mG5IZTmvTLUndg0=",
+        "last_login": "2023-06-04T16:18:07.834Z",
+        "is_superuser": false,
+        "first_name": "Арина",
+        "last_name": "Заикина",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-06-03T19:58:23.631Z",
+        "email": "arina.viejo@yandex.ru",
+        "middle_name": null,
+        "comment": null,
+        "email_verified": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "app_user.customuser",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$I1Kpv9QPTlhZyZwV290YSC$c6gyeSkwZE7eqRYs6csH7UXdt8tNiFkZPrrGZKvtNfk=",
+        "last_login": "2023-06-04T19:09:48.012Z",
+        "is_superuser": false,
+        "first_name": "Арина",
+        "last_name": "Старцева",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-06-04T12:10:30.969Z",
+        "email": "sav2405@gmail.com",
+        "middle_name": null,
+        "comment": null,
+        "email_verified": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "app_user.customuser",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$GN27wmqd7FoGHxqFebboFG$WpUZD1W8K88IoUH4U1uJ7raJO4Qcu/1G3D4mL4TkgBk=",
+        "last_login": "2023-06-04T12:33:18.236Z",
+        "is_superuser": false,
+        "first_name": "Евгений",
+        "last_name": "Заикин",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-06-04T12:11:55.979Z",
+        "email": "evgeniy19872004@mail.ru",
+        "middle_name": "Владимирович",
+        "comment": null,
+        "email_verified": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "app_user.customuser",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$hkqNb0ZgDSmSpR7hgQeSUJ$xHQhRK4j2lqUqIcygT1yKP4ru7d3mjXloLNWglvj8l0=",
+        "last_login": "2023-06-04T16:05:06.054Z",
+        "is_superuser": false,
+        "first_name": "Ольга",
+        "last_name": "Соколова",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-06-04T16:01:39.743Z",
+        "email": "i@azaikina.ru",
+        "middle_name": null,
+        "comment": null,
+        "email_verified": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "app_blog.post",
+    "pk": 1,
+    "fields": {
+        "title": "27 идей: что подарить горнолыжнику и сноубордисту на Новый Год",
+        "slug": "27-idei-chto-podarit-gornolyzhniku-i-snoubordistu-na-novyi-god",
+        "content": "Не знаете что подарить другу-горнолыжнику или подружке-сноубордистке на Новый год?\r\n\r\nМы догадывались, что их души — потемки и все сделали за вас — дно морское перерыли, артефакты взвесили и оценили, провели тесты.\r\n\r\nРезультат перед вашими глазами. Осталось только подарить.",
+        "preview": "posts/lyzhnyi-sport-lyzhnik-muzhchina-sportsmen-kostium-shlem-ochk.jpg",
+        "created_at": "2023-06-04T12:16:55.135Z",
+        "published": true,
+        "views_count": 4,
+        "created_by": 2
+    }
+},
+{
+    "model": "app_blog.post",
+    "pk": 2,
+    "fields": {
+        "title": "Горнолыжные курорты Сибири",
+        "slug": "gornolyzhnye-kurorty-sibiri",
+        "content": "Необъятные российские пространства к востоку от Уральских гор манят не только путешественников, но и горнолыжников. Территория Сибири просто огромна, и на ней есть не только леса и реки, но и высокие горы, которые во многом не уступают Альпам и Кавказу. Алтай, Горная Шория, Западные и Восточные Саяны, Хакасия, Хамар-Дабан — это далеко не полный список мест, куда можно поехать за свежим снегом.\r\nНесмотря на приличную удалённость от центральных регионов России, сюда устремляются тысячи лыжников и сноубордистов. И если в былые времена в Сибирь отправляли в ссылку или на каторгу, то сейчас туда едут за эмоциями и адреналином.\r\nВ Сибири свои уникальные климатические условия. И хотя у многих сложилось представление о ней как о суровом и холодном крае, на самом деле это не так. Например, на Алтае или в районе Байкала достаточно мягкий климат и средняя температура зимой не опускается ниже минус 8-9 градусов.\r\nДа, расстояния в Сибири большие, но зато только здесь во время спуска можно одновременно любоваться красотой Байкала или Телецкого озера или побывать заодно на знаменитых красноярских Столбах и хакасских золотых приисках.\r\nРанняя зима и великолепный паудер привлекают поклонников фрирайда в самый продвинутый и раскрученный сибирский курорт Шерегеш. Красоты Байкала и возможность попробовать суперпухляк манят в Иркутскую область. Белокуриха на Алтае и «Бобровый лог» под Красноярском так же не похожи друг на друга, как и Приисковый на Междуреченск. Среди десяти описанных ниже курортов не найдёте ни одной пары близнецов — каждый из них уникален по-своему.",
+        "preview": "posts/1915-001_srtW87G.webp",
+        "created_at": "2023-06-04T12:29:16.674Z",
+        "published": true,
+        "views_count": 8,
+        "created_by": 2
+    }
+},
+{
+    "model": "app_blog.post",
+    "pk": 3,
+    "fields": {
+        "title": "Лучшие горнолыжные курорты России",
+        "slug": "luchshie-gornolyzhnye-kurorty-rossii",
+        "content": "«Лучшие» — по каким параметрам? Для кого? Для любителей спортивного катания нет ничего лучше жёсткой леденистой трассы с вешками и возможности «походить» эту трассу часика два с засечкой времени и без «этих дятлов, которые вылезают на трассу», в пределах видимости. Новичкам подавай «зелёные» укатанные трассы, райдерам — свежий паудер… И для каждого «лучшим» будет что-то своё. Так что давайте сразу определимся: в этом материале мы рассмотрим горнолыжные комплексы, отвечающие запросам максимального числа катающихся на горных лыжах или сноуборде любителей.\r\nДругими словами, это курорты с выбором мест проживания, кафе, ресторанов, магазинов и желательно семейных и более молодёжных развлечений — чтобы имело смысл на такой курорт отправиться издалека и не скучно провести там хотя бы неделю.\r\nСразу же выясняется, что отвечающих таким требованиям курортов хотя бы с 25 км трасс в России крайне мало. Даже десяти не набирается. Судите сами:\r\n«Большой Вудъявр» в Хибинах (северо-запад России);\r\nШерегеш в Горной Шории (близко к центральной части страны);\r\n«Горный воздух» на Сахалине (Дальний Восток).\r\nЭто три. Остальные на Кавказе:\r\nЭльбрус плюс Чегет (поскольку по отдельности они недотягивают до требуемых 25 км трасс);\r\nДомбай;\r\nАрхыз;\r\nи три комплекса Красной Поляны: «Газпром» — зоны катания «Лаура» и «Альпика», «Роза Хутор» и курорт «Красная Поляна» (бывший «Горки Город», ещё раньше «Горная карусель»).\r\nПомимо «топ-9», есть и несколько курортов локального значения с меньшим количеством трасс, которые представляют интерес для жителей близлежащих городов благодаря хорошей инфраструктуре, подъёмникам и подготовке склонов. Такие комплексы есть в различных регионах нашей страны — в частности, это «Бобровый лог» в Красноярске, «Гора Гладенькая» в Саянах и «Гора Соболиная» в Байкальске.\r\nДобавим также связку из трёх небольших отдельных курортов на Южном Урале, которые можно посетить в рамках одной поездки на несколько дней.",
+        "preview": "posts/1904-001.webp",
+        "created_at": "2023-06-04T12:32:29.898Z",
+        "published": true,
+        "views_count": 5,
+        "created_by": 2
+    }
+},
+{
+    "model": "app_blog.post",
+    "pk": 4,
+    "fields": {
+        "title": "История и эволюция ратраков",
+        "slug": "istoriia-i-evoliutsiia-ratrakov",
+        "content": "После того, как сноубордисты и лыжники спустились с последнего рабочего подъёмника и отправились на apre-ski, склон пустует недолго. Пройдёт совсем немного времени и на трассы выползут широкие приземистые машины. До самого утра они будут деловито выглаживать каждый бугорок, профилировать и утрамбовывать трассы, перевозить грузы и выполнять массу другой работы, незаметной обычному гостю курорта. А к утру исчезнут, оставив после себя идеальные склоны, так радующие всех, кто рано встаёт.",
+        "preview": "posts/2182-001.webp",
+        "created_at": "2023-06-04T12:35:00.901Z",
+        "published": true,
+        "views_count": 4,
+        "created_by": 4
+    }
+},
+{
+    "model": "app_blog.post",
+    "pk": 5,
+    "fields": {
+        "title": "Как читать маркировку горнолыжных трасс",
+        "slug": "kak-chitat-markirovku-gornolyzhnykh-trass",
+        "content": "На картах горнолыжных курортов все трассы обозначены разными цветами — так маркируется сложность горнолыжной трассы, чтобы райдер мог выбрать линию спуска себе по силам. Но эти обозначения часто ставят в тупик новичков и могут сыграть злую шутку даже с опытными райдерами, которые отправляются в другой горнолыжный регион.\r\nВсё потому, что универсальной для всего мира системы маркировки сложности горнолыжных трасс пока не существует. Более того, некоторые курорты могут вносить небольшие изменения в уже существующие подходы, и нет чёткой системы оценки сложности спуска. Да, при этом учитывают уклон и ширину трассы, степень её подготовки, протяжённость и возможные препятствия, но выстроенной и общей для всех шкалы оценивания нет. Поэтому трассы, заявленные как экспертные в одном регионе, в другом могут быть сопоставимы со спусками, заявленными для райдеров среднего уровня. Так что всегда, когда вы приезжаете на незнакомый лыжный курорт, лучше изучить легенду к местной карте и уточнить обозначения сложности трасс, чтобы не оказаться на склоне, который вам не по силам.",
+        "preview": "posts/1687-001.webp",
+        "created_at": "2023-06-04T12:35:54.410Z",
+        "published": true,
+        "views_count": 4,
+        "created_by": 4
+    }
+},
+{
+    "model": "app_blog.post",
+    "pk": 6,
+    "fields": {
+        "title": "Правила поведения на склоне",
+        "slug": "pravila-povedeniia-na-sklone",
+        "content": "1. Уважайте окружающих\r\nПравило гласит, что горнолыжники и сноубордисты в равной степени имеют право получать удовольствие от катания. На горнолыжном склоне ваши действия не должны никому мешать. Чаще смотрите по сторонам и не теряйте бдительности. Следите за снаряжением, не допускайте самостоятельного перемещения снаряда по склону без контроля.\r\n2. Контролируйте скорость спуска\r\nВыбирайте скорость соответственно своим способностям, погодным условиям, крутизне и загруженности склона. Это касается учебных трасс, где максимальное количество людей движется непредсказуемо и с минимальной скоростью. Обучающиеся катанию похожи на кегли для «опытного понтореза», который несётся вниз сломя голову. Лучше притормозить и спокойно проехать этот участок, раздавая бесплатные советы новичкам. То же относится к зоне торможения внизу трассы и около посадки на подъёмник. Одно бесконтрольное движение и люди в очереди станут жертвами лихача.\r\n3. Контролируйте свою траекторию\r\nКатающийся должен выбирать безопасную траекторию для себя и других лыжников ниже по склону. В столкновениях всегда виноват тот, кто сверху. Под траекторией подразумевается соблюдение дистанции с другими участниками движения и своевременные повороты в выбранном направлении. Ну а чтобы самому не стать жертвой лихача, иногда поглядывайте вверх по склону.\r\n4. Соблюдайте дистанцию при обгоне\r\nЕсли совершаете обгон, учитывайте в своей траектории вероятность резкой остановки или падения ниже стоящего райдера.\r\n5. Начало движения с края трассы, движение резаной дугой поперёк или вверх по склону\r\nПеред началом движения или остановкой посмотрите вверх по склону. Если хотите пересечь склон поперёк — также смотрите вверх. Находясь ниже по склону, согласно правилу 3, вы имеете преимущество, но подстраховаться никогда не помешает.\r\n6. Остановка на склоне\r\nМесто для остановки нужно выбирать на краю склона, плавно снижая скорость. Нельзя останавливаться на узких участках склона, на его краю под сбросом, за перегибом с видимостью меньше 15 метров и других местах, где вас могут не заметить спускающиеся райдеры. С другой стороны, если участок склона шириной с футбольное поле, можно остановиться и посередине, предварительно убедившись, что отсутствует угроза сверху.",
+        "preview": "posts/0617_001.webp",
+        "created_at": "2023-06-04T12:43:57.338Z",
+        "published": true,
+        "views_count": 25,
+        "created_by": 2
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 4,
+    "fields": {
+        "email": "sav2405@gmail.com",
+        "first_name": "Арина",
+        "last_name": "Старцева",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 4
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 5,
+    "fields": {
+        "email": "evgeniy19872004@mail.ru",
+        "first_name": "Иван",
+        "last_name": "Иванов",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 6,
+    "fields": {
+        "email": "max@skychimp.pro",
+        "first_name": "Максим",
+        "last_name": "Максимов",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 7,
+    "fields": {
+        "email": "alex@skychimp.ru",
+        "first_name": "Алексей",
+        "last_name": "Алексеев",
+        "middle_name": "Алексеевич",
+        "comment": "",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 8,
+    "fields": {
+        "email": "anna@skuchip.ru",
+        "first_name": "Анна",
+        "last_name": "Иванова",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 9,
+    "fields": {
+        "email": "olga@mail.ru",
+        "first_name": "Ольга",
+        "last_name": "Васильева",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 10,
+    "fields": {
+        "email": "michael@mail.ru",
+        "first_name": "Михаил",
+        "last_name": "Михайлов",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 11,
+    "fields": {
+        "email": "arina.viejo@yandex.ru",
+        "first_name": "Андрей",
+        "last_name": "Старцев",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 3
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 12,
+    "fields": {
+        "email": "oleg@example.ru",
+        "first_name": "Олег",
+        "last_name": "Олегов",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 3
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 13,
+    "fields": {
+        "email": "sav2405@gmail.com",
+        "first_name": "Арина",
+        "last_name": "Старцева",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 14,
+    "fields": {
+        "email": "arina.viejo@yandex.ru",
+        "first_name": "Владимир",
+        "last_name": "Владимиров",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_message.message",
+    "pk": 3,
+    "fields": {
+        "subject": "Приглашение на гонку героев",
+        "body": "Приглашаем тебя в следующую субботу на гонку героев!",
+        "created_by": 4
+    }
+},
+{
+    "model": "app_message.message",
+    "pk": 4,
+    "fields": {
+        "subject": "Скидка на ski-сервис",
+        "body": "Скидка 30% на проведение ТО вашей снаряги!\r\nЖдем вас!",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_message.message",
+    "pk": 5,
+    "fields": {
+        "subject": "Чехол в подарок",
+        "body": "Купи горные лыжи или сноуборд и получи чехол в подарок",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_message.message",
+    "pk": 6,
+    "fields": {
+        "subject": "Скидки на ТО велосипедов",
+        "body": "Весь июнь скидки на ТО велосипедов 20%!",
+        "created_by": 3
+    }
+},
+{
+    "model": "app_newsletter.newsletter",
+    "pk": 11,
+    "fields": {
+        "time": "16:58:00",
+        "frequency": "D",
+        "status": "F",
+        "is_active": false,
+        "created_at": "2023-06-04T13:57:02.447Z",
+        "finish_date": "2023-06-05",
+        "finish_time": "11:11:00",
+        "created_by": 3,
+        "clients": [
+            11
+        ],
+        "messages": [
+            6
+        ]
+    }
+},
+{
+    "model": "app_newsletter.newsletter",
+    "pk": 12,
+    "fields": {
+        "time": "17:01:00",
+        "frequency": "D",
+        "status": "S",
+        "is_active": true,
+        "created_at": "2023-06-04T14:00:31.680Z",
+        "finish_date": "2023-06-30",
+        "finish_time": "11:11:00",
+        "created_by": 2,
+        "clients": [
+            5
+        ],
+        "messages": [
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "app_newsletter.newsletterlog",
+    "pk": 8,
+    "fields": {
+        "date_time": "2023-06-04T13:58:01.945Z",
+        "status": "S",
+        "server_response": "Письмо успешно доставлено",
+        "client": 11,
+        "message": 6,
+        "newsletter": 11
+    }
+},
+{
+    "model": "app_newsletter.newsletterlog",
+    "pk": 9,
+    "fields": {
+        "date_time": "2023-06-04T14:01:01.489Z",
+        "status": "S",
+        "server_response": "Письмо успешно доставлено",
+        "client": 5,
+        "message": 4,
+        "newsletter": 12
+    }
+},
+{
+    "model": "app_newsletter.newsletterlog",
+    "pk": 10,
+    "fields": {
+        "date_time": "2023-06-04T14:01:03.001Z",
+        "status": "S",
+        "server_response": "Письмо успешно доставлено",
+        "client": 5,
+        "message": 5,
+        "newsletter": 12
+    }
+}
+]

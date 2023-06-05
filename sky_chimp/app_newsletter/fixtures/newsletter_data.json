@@ -1,0 +1,79 @@
+[
+{
+    "model": "app_newsletter.newsletter",
+    "pk": 11,
+    "fields": {
+        "time": "16:58:00",
+        "frequency": "D",
+        "status": "F",
+        "is_active": false,
+        "created_at": "2023-06-04T13:57:02.447Z",
+        "finish_date": "2023-06-05",
+        "finish_time": "11:11:00",
+        "created_by": 3,
+        "clients": [
+            11
+        ],
+        "messages": [
+            6
+        ]
+    }
+},
+{
+    "model": "app_newsletter.newsletter",
+    "pk": 12,
+    "fields": {
+        "time": "17:01:00",
+        "frequency": "D",
+        "status": "S",
+        "is_active": true,
+        "created_at": "2023-06-04T14:00:31.680Z",
+        "finish_date": "2023-06-30",
+        "finish_time": "11:11:00",
+        "created_by": 2,
+        "clients": [
+            5
+        ],
+        "messages": [
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "app_newsletter.newsletterlog",
+    "pk": 8,
+    "fields": {
+        "date_time": "2023-06-04T13:58:01.945Z",
+        "status": "S",
+        "server_response": "Письмо успешно доставлено",
+        "client": 11,
+        "message": 6,
+        "newsletter": 11
+    }
+},
+{
+    "model": "app_newsletter.newsletterlog",
+    "pk": 9,
+    "fields": {
+        "date_time": "2023-06-04T14:01:01.489Z",
+        "status": "S",
+        "server_response": "Письмо успешно доставлено",
+        "client": 5,
+        "message": 4,
+        "newsletter": 12
+    }
+},
+{
+    "model": "app_newsletter.newsletterlog",
+    "pk": 10,
+    "fields": {
+        "date_time": "2023-06-04T14:01:03.001Z",
+        "status": "S",
+        "server_response": "Письмо успешно доставлено",
+        "client": 5,
+        "message": 5,
+        "newsletter": 12
+    }
+}
+]

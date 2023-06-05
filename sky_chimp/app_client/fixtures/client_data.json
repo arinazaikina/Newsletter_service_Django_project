@@ -1,0 +1,134 @@
+[
+{
+    "model": "app_client.client",
+    "pk": 4,
+    "fields": {
+        "email": "sav2405@gmail.com",
+        "first_name": "Арина",
+        "last_name": "Старцева",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 4
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 5,
+    "fields": {
+        "email": "evgeniy19872004@mail.ru",
+        "first_name": "Иван",
+        "last_name": "Иванов",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 6,
+    "fields": {
+        "email": "max@skychimp.pro",
+        "first_name": "Максим",
+        "last_name": "Максимов",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 7,
+    "fields": {
+        "email": "alex@skychimp.ru",
+        "first_name": "Алексей",
+        "last_name": "Алексеев",
+        "middle_name": "Алексеевич",
+        "comment": "",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 8,
+    "fields": {
+        "email": "anna@skuchip.ru",
+        "first_name": "Анна",
+        "last_name": "Иванова",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 9,
+    "fields": {
+        "email": "olga@mail.ru",
+        "first_name": "Ольга",
+        "last_name": "Васильева",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 10,
+    "fields": {
+        "email": "michael@mail.ru",
+        "first_name": "Михаил",
+        "last_name": "Михайлов",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 11,
+    "fields": {
+        "email": "arina.viejo@yandex.ru",
+        "first_name": "Андрей",
+        "last_name": "Старцев",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 3
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 12,
+    "fields": {
+        "email": "oleg@example.ru",
+        "first_name": "Олег",
+        "last_name": "Олегов",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 3
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 13,
+    "fields": {
+        "email": "sav2405@gmail.com",
+        "first_name": "Арина",
+        "last_name": "Старцева",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 2
+    }
+},
+{
+    "model": "app_client.client",
+    "pk": 14,
+    "fields": {
+        "email": "arina.viejo@yandex.ru",
+        "first_name": "Владимир",
+        "last_name": "Владимиров",
+        "middle_name": null,
+        "comment": "",
+        "created_by": 2
+    }
+}
+]

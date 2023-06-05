@@ -1,0 +1,102 @@
+[
+{
+    "model": "app_user.customuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$ZaA8UZwIkNCKMptXhGbRUc$vr5Qt4BH6vAQo5JYFT6wzmu5zWy0ZyaT9rX54+iKggM=",
+        "last_login": "2023-06-04T18:55:47.272Z",
+        "is_superuser": true,
+        "first_name": "Админ",
+        "last_name": "Админов",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-06-03T18:32:33Z",
+        "email": "admin@admin.ru",
+        "middle_name": null,
+        "comment": "",
+        "email_verified": false,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "app_user.customuser",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$KZftNbigF3Ymi8Of4XXQAz$tCyBtT04JhPFutLCI4AkzUvxyeo/mG5IZTmvTLUndg0=",
+        "last_login": "2023-06-04T16:18:07.834Z",
+        "is_superuser": false,
+        "first_name": "Арина",
+        "last_name": "Заикина",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-06-03T19:58:23.631Z",
+        "email": "arina.viejo@yandex.ru",
+        "middle_name": null,
+        "comment": null,
+        "email_verified": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "app_user.customuser",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$I1Kpv9QPTlhZyZwV290YSC$c6gyeSkwZE7eqRYs6csH7UXdt8tNiFkZPrrGZKvtNfk=",
+        "last_login": "2023-06-04T19:09:48.012Z",
+        "is_superuser": false,
+        "first_name": "Арина",
+        "last_name": "Старцева",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-06-04T12:10:30.969Z",
+        "email": "sav2405@gmail.com",
+        "middle_name": null,
+        "comment": null,
+        "email_verified": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "app_user.customuser",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$GN27wmqd7FoGHxqFebboFG$WpUZD1W8K88IoUH4U1uJ7raJO4Qcu/1G3D4mL4TkgBk=",
+        "last_login": "2023-06-04T12:33:18.236Z",
+        "is_superuser": false,
+        "first_name": "Евгений",
+        "last_name": "Заикин",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-06-04T12:11:55.979Z",
+        "email": "evgeniy19872004@mail.ru",
+        "middle_name": "Владимирович",
+        "comment": null,
+        "email_verified": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "app_user.customuser",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$hkqNb0ZgDSmSpR7hgQeSUJ$xHQhRK4j2lqUqIcygT1yKP4ru7d3mjXloLNWglvj8l0=",
+        "last_login": "2023-06-04T16:05:06.054Z",
+        "is_superuser": false,
+        "first_name": "Ольга",
+        "last_name": "Соколова",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-06-04T16:01:39.743Z",
+        "email": "i@azaikina.ru",
+        "middle_name": null,
+        "comment": null,
+        "email_verified": true,
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
