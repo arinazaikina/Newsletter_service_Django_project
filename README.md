@@ -64,7 +64,8 @@ sudo -u postgres psql
 ```bash
 CREATE DATABASE newsletter_db;
 ```
-`newsletter_db` - название БД (можно задать другое название)<br>
+`newsletter_db` - название БД (можно задать другое название)
+
 4. Закрыть интерактивную оболочку PostgreSQL
 ```bash
 \q
