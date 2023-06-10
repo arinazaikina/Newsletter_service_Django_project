@@ -1,5 +1,5 @@
 from django import forms
-from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
+from django.contrib.auth.forms import UserCreationForm, AuthenticationForm, PasswordResetForm, SetPasswordForm
 
 from .models import CustomUser
 
@@ -106,3 +106,39 @@ class UserUpdateForm(BaseUserForm, forms.ModelForm):
             attrs={'class': 'form-control', 'placeholder': 'Введите вашу фамилию'})
         self.fields['middle_name'].widget = forms.TextInput(
             attrs={'class': 'form-control', 'placeholder': 'Введите ваше отчество'})
+
+
+class CustomPasswordResetForm(PasswordResetForm):
+    """
+    Форма для сброса пароля.
+    Наследуется от Django PasswordResetForm.
+    Предоставляет поле для ввода электронной почты, на которую
+    будет отправлена ссылка для восстановления пароля.
+    """
+
+    def __init__(self, *args, **kwargs):
+        """
+        Инициализирует форму и добавляет CSS-классы и плейсхолдеры для полей формы.
+        """
+        super().__init__(*args, **kwargs)
+        self.fields['email'].widget = forms.TextInput(
+            attrs={'class': 'form-control', 'placeholder': 'Введите вашу электронную почту'})
+
+
+class CustomSetPasswordForm(SetPasswordForm):
+    """
+    Форма для установки нового пароля.
+    Наследуется от Django SetPasswordForm.
+    Предоставляет поле для ввода нового пароля и поле
+    для его подтверждения.
+    """
+
+    def __init__(self, *args, **kwargs):
+        """
+        Инициализирует форму и добавляет CSS-классы и плейсхолдеры для полей формы.
+        """
+        super().__init__(*args, **kwargs)
+        self.fields['new_password1'].widget = forms.PasswordInput(
+            attrs={'class': 'form-control', 'placeholder': 'Введите новый пароль'})
+        self.fields['new_password2'].widget = forms.PasswordInput(
+            attrs={'class': 'form-control', 'placeholder': 'Подтвердите новый пароль'})

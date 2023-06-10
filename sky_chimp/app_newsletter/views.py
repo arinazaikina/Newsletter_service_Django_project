@@ -8,8 +8,7 @@ from django.urls import reverse, reverse_lazy
 from django.views.generic import CreateView, ListView, DetailView, UpdateView, DeleteView
 
 from permissions.authenticate import AuthenticatedAccessMixin
-from permissions.user_permission import CreatorAccessMixin, CombinedAccessMixin, NewsletterLogAccessMixin, \
-    ManagerAccessMixin
+from permissions.user_permission import CreatorAccessMixin, CombinedAccessMixin, NewsletterLogAccessMixin
 from .forms import NewsletterCreateForm
 from .models import Newsletter, NewsletterLog
 from .services import NewsletterDeliveryService, ActiveNewsletterMixin

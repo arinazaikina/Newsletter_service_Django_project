@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
     dependencies = [
@@ -18,7 +17,8 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=255, unique=True, verbose_name='Заголовок')),
                 ('slug', models.SlugField(blank=True, max_length=255, verbose_name='URL')),
                 ('content', models.TextField(verbose_name='Содержание')),
-                ('preview', models.ImageField(default='posts/default.png', upload_to='posts/', verbose_name='Изображение (превью)')),
+                ('preview', models.ImageField(default='posts/default.png', upload_to='posts/',
+                                              verbose_name='Изображение (превью)')),
                 ('created_at', models.DateTimeField(auto_now_add=True, verbose_name='Дата создания')),
                 ('published', models.BooleanField(default=True, verbose_name='Опубликован')),
                 ('views_count', models.PositiveIntegerField(default=0, verbose_name='Количество просмотров')),

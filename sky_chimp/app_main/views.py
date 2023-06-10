@@ -3,8 +3,7 @@ from random import sample
 from django.views.generic import TemplateView
 
 from app_blog.models import Post
-from app_client.models import Client
-from app_newsletter.models import Newsletter
+from .services import MainPageDataCachingServices
 
 
 class IndexPageView(TemplateView):
@@ -12,9 +11,9 @@ class IndexPageView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['total_newsletters'] = Newsletter.objects.count()
-        context['active_newsletters'] = Newsletter.objects.filter(is_active=True).count()
-        context['unique_clients'] = Client.objects.values('email').distinct().count()
+        context['total_newsletters'] = MainPageDataCachingServices.get_total_newsletter()
+        context['active_newsletters'] = MainPageDataCachingServices.get_active_newsletters()
+        context['unique_clients'] = MainPageDataCachingServices.get_unique_clients()
 
         all_posts = list(Post.objects.all())
         context['random_blog_posts'] = sample(all_posts, min(3, len(all_posts)))

@@ -3,7 +3,10 @@ from typing import Dict
 
 from django.contrib import messages
 from django.contrib.auth import login, logout
-from django.contrib.auth.views import LoginView
+from django.contrib.auth.views import (
+    LoginView, PasswordResetView, PasswordResetDoneView,
+    PasswordResetConfirmView, PasswordResetCompleteView
+)
 from django.db.models import QuerySet
 from django.forms import Form
 from django.http import HttpRequest, HttpResponseRedirect, HttpResponse
@@ -15,7 +18,7 @@ from django.views import View
 from django.views.generic import CreateView, UpdateView, ListView
 
 from permissions.user_permission import ManagerAccessMixin
-from .forms import UserRegistrationForm, UserLoginForm, UserUpdateForm
+from .forms import UserRegistrationForm, UserLoginForm, UserUpdateForm, CustomPasswordResetForm, CustomSetPasswordForm
 from .models import CustomUser
 from .services import EmailConfirmationService, email_token_generator, UserManagerService
 
@@ -199,7 +202,7 @@ class ProfileUpdateView(UpdateView):
         Метод, вызываемый при валидной форме.
         В данном случае, сохраняет изменения и выполняет редирект.
         """
-        response = super().form_valid(form)
+        super().form_valid(form)
         return redirect(self.get_success_url())
 
     def get_context_data(self, **kwargs):
@@ -270,6 +273,44 @@ class UserListView(ManagerAccessMixin, ListView):
         Возвращает контекстные данные для шаблона
         """
         context = super().get_context_data(**kwargs)
-        context['title'] = f'Пользователи сервиса'
-        context['header'] = f'Список пользователей'
+        context['title'] = 'Пользователи сервиса'
+        context['header'] = 'Список пользователей'
         return context
+
+
+class CustomPasswordResetView(PasswordResetView):
+    """
+    Представление для сброса пароля.
+    Наследуется от Django PasswordResetView.
+    """
+    email_template_name = 'app_user/password_reset_email.html'
+    template_name = 'app_user/password_reset_form.html'
+    form_class = CustomPasswordResetForm
+    success_url = reverse_lazy('app_user:password_reset_done')
+
+
+class CustomPasswordResetDoneView(PasswordResetDoneView):
+    """
+    Представление для отображения страницы успешной отправки
+    ссылки на сброс пароля.
+    Наследуется от Django PasswordResetDoneView.
+    """
+    template_name = 'app_user/password_reset_done.html'
+
+
+class CustomPasswordResetConfirmView(PasswordResetConfirmView):
+    """
+    Представление для отображения страницы подтверждения сброса пароля.
+    Наследуется от Django PasswordResetConfirmView.
+    """
+    form_class = CustomSetPasswordForm
+    success_url = reverse_lazy("app_user:password_reset_complete")
+    template_name = "app_user/password_reset_confirm.html"
+
+
+class CustomPasswordResetCompleteView(PasswordResetCompleteView):
+    """
+    Представление для отображения страницы успешного сброса пароля.
+    Наследуется от Django PasswordResetCompleteView.
+    """
+    template_name = 'app_user/password_reset_complete.html'
