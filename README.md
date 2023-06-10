@@ -120,31 +120,31 @@ python manage.py loaddata newsletter_data.json
 1. Открыть новое окно терминала
 2. Если виртуальное окружение неактивно, активировать его
 ```bash
-cd .. &&  source venv/bin/activate
+source venv/bin/activate
 ```
 3. Из каталога проекта sky_chimp запустить celery
 ```bash
-cd sky_chimp && celery -A config worker --loglevel=info
+celery -A config worker --loglevel=info
 ```
 
 ## Шаг 8. Запуск celery-beat
 1. Открыть новое окно терминала
 2. Если виртуальное окружение неактивно, активировать его
 ```bash
-cd .. &&  source venv/bin/activate
+source venv/bin/activate
 ```
 3. Из каталога проекта sky_chimp запустить celery
 ```bash
-cd sky_chimp && celery -A config beat --loglevel=info
+celery -A config beat --loglevel=info
 ```
 
 ## Шаг 9. Запуск сервера Django
 1. Открыть новое окно терминала
 2. Если виртуальное окружение неактивно, активировать его
 ```bash
-cd .. &&  source venv/bin/activate
+source venv/bin/activate
 ```
 3. Из каталога проекта sky_chimp запустить сервер
 ```bash
-cd sky_chimp && python manage.py runserver
+python manage.py runserver
 ```
